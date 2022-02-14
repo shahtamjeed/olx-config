@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: Root
+    url: jdbc:mysql://localhost:3306/olx_db
+    username: root
+  jpa:
+    hibernate.ddl-auto: update
+    properties:
+      hibernet:
+        dialect: org.hibernet.dialect.MySQL8Dialect
